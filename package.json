@@ -1,0 +1,13 @@
+{
+    "name": "kcapp-nfc",
+    "version": "0.0.1",
+    "description": "NFC module for integration of reading into kcapp",
+    "scripts": {
+        "start": "DEBUG=kcapp* node kcapp-nfc.js"
+    },
+    "dependencies": {
+        "debug": "^4.1.1",
+        "kcapp-sio-client": "github:kcapp/kcapp-sio-client#6c43e7a1679ca5cf9a70365c614e88735acf59ce",
+        "pcsclite": "^1.0.0"
+    }
+}
